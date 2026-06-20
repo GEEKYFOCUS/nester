@@ -2,8 +2,8 @@
   "name": "nester",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
+    "dev": "node init && turbo run dev",
+    "build": "node init && turbo run build",
     "lint": "turbo run lint",
     "website": "turbo run dev --filter=@nester/website",
     "dapp": "turbo run dev --filter=@nester/dapp",
